@@ -6,32 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 import type { Symptom } from "../types/symptom";
 
-interface DiagnosisResult {
-  status: boolean;
 
-  diagnosis?: {
-    id: string;
-    name: string;
-    description: string;
-    suggestion?: string[];
-  };
-
-  activeRule?: string;
-
-  reason?: string;
-
-  source?: string[];
-
-  selectedSymptoms?: string[];
-
-  matchedRules?: {
-    id: string;
-    if: string[];
-    then: string;
-  }[];
-
-  message?: string;
-}
 
 export default function Diagnosis() {
   const [symptoms, setSymptoms] = useState<Symptom[]>([]);
