@@ -38,8 +38,7 @@ export default function Diagnosis() {
   const [selectedSymptoms, setSelectedSymptoms] =
     useState<string[]>([]);
 
-  const [result, setResult] =
-    useState<DiagnosisResult | null>(null);
+
 
   const navigate = useNavigate();
 
@@ -97,21 +96,7 @@ export default function Diagnosis() {
     }
   };
 
-  const getLevelColor = (name?: string) => {
-    if (
-      name?.toLowerCase().includes("rendah")
-    ) {
-      return "bg-green-100 text-green-700";
-    }
 
-    if (
-      name?.toLowerCase().includes("sedang")
-    ) {
-      return "bg-yellow-100 text-yellow-700";
-    }
-
-    return "bg-red-100 text-red-700";
-  };
 
   return (
     <>
