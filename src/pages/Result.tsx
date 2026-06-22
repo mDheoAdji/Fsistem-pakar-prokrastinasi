@@ -50,7 +50,7 @@ export default function Result() {
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-6">
 
         <h1 className="text-3xl font-bold mb-6">
-          🧠 Hasil Diagnosa
+          Hasil Diagnosa
         </h1>
 
         <div
@@ -63,7 +63,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            📖 Deskripsi
+            Deskripsi
           </h3>
 
           <p className="mt-2">
@@ -73,7 +73,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            📋 Gejala yang Dipilih
+            Gejala yang Dipilih
           </h3>
 
           <ul className="list-disc pl-5 mt-2">
@@ -98,7 +98,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            ⚙ Rule Aktif
+            Rule Aktif
           </h3>
 
           <p>{result.activeRule}</p>
@@ -106,7 +106,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            🔄 Proses Inferensi
+            Proses Inferensi
           </h3>
 
           <div className="p-4 bg-blue-50 rounded-lg text-center mt-2">
@@ -149,7 +149,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            📝 Penjelasan
+            Penjelasan
           </h3>
 
           <p>{result.reason}</p>
@@ -157,7 +157,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            📚 Referensi Jurnal
+            Referensi Jurnal
           </h3>
 
           <ul className="list-disc pl-5 mt-2">
@@ -173,7 +173,7 @@ export default function Result() {
 
         <div className="mb-6">
           <h3 className="font-bold text-lg">
-            💡 Saran
+            Saran
           </h3>
 
           <ul className="list-disc pl-5 mt-2">
